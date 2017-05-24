@@ -462,3 +462,6 @@ ff40 on serve donnot have obove and works fine to reload model
 continuous use a tanh to produce mu, not lineer in the paper
 the cost of policy is in question for it use sigma_sq as trainable
 my_sigma is not right
+
+to learn and setup github on ubuntu
+http://blog.csdn.net/tina_ttl/article/details/51326684
