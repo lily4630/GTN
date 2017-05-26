@@ -87,6 +87,9 @@ Warning: this work is currently in submission for NIPS 2017.
 
     **python**
     sudo apt-get install -y python-pip python-dev
+    
+    conda create -n song_1 python=2
+    source activate song_1
 
     **tensorflow**
     pip install tensorflow... 11 and 10 is fine
