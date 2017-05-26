@@ -88,6 +88,10 @@ Warning: this work is currently in submission for NIPS 2017.
     **python**
     sudo apt-get install -y python-pip python-dev
     
+    bash Anaconda3-4.3.1-Linux-x86_64.sh 
+    # add source from qinghua, so that the network is fixed
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    conda config --set show_channel_urls yes
     conda create -n song_1 python=2
     source activate song_1
 
@@ -113,6 +117,8 @@ Warning: this work is currently in submission for NIPS 2017.
     pip install -e . # minimal install
     pip install -e .[all] # all install
     cd ..
+    
+    conda install -c https://conda.binstar.org/menpo opencv
 
     **opencv**
 
