@@ -122,22 +122,22 @@ Warning: this work is currently in submission for NIPS 2017.
 
     **opencv**
 
-        tar ffmpeg
-        cd ffmpeg
-        ./configure --enable-shared
-        make -j40
-        make install
+     tar ffmpeg
+     cd ffmpeg
+     ./configure --enable-shared
+     make -j40
+     make install
 
-        sudo apt-get -y install g++
-        sudo apt-get -y install vim
-        sudo apt-get install build-essential libgtk2.0-dev libjpeg-dev libtiff4-dev libjasper-dev libopenexr-dev cmake python-dev python-numpy python-tk libtbb-dev libeigen2-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev libqt4-dev libqt4-opengl-dev sphinx-common texlive-latex-extra libv4l-dev libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev
-        unzip opencv-2.4.13.zip
-        cd opencv-2.4.13
-        mkdir release
-        cd release/
-        cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
-        make -j16
-        make install
+     sudo apt-get -y install g++
+     sudo apt-get -y install vim
+     sudo apt-get install build-essential libgtk2.0-dev libjpeg-dev libtiff4-dev libjasper-dev libopenexr-dev cmake python-dev python-numpy python-tk libtbb-dev libeigen2-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev libqt4-dev libqt4-opengl-dev sphinx-common texlive-latex-extra libv4l-dev libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev
+     unzip opencv-2.4.13.zip
+     cd opencv-2.4.13
+     mkdir release
+     cd release/
+     cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
+     make -j16
+     make install
 
     **universe**
         pip install six
@@ -171,7 +171,14 @@ Warning: this work is currently in submission for NIPS 2017.
         pip install -e .
 
         sudo apt-get install python-matplotlib
-
+        
+        
+    **set remap**
+      put remap to home
+      set it to excuatble with right click
+      
+    **set project**
+      set ip and home in config
     ====================================================================
     **atom**
       su root
