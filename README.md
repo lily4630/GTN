@@ -88,6 +88,8 @@ Warning: this work is currently in submission for NIPS 2017.
     **python**
     sudo apt-get install -y python-pip python-dev
     
+    ============================================================================================
+    
     bash Anaconda3-4.3.1-Linux-x86_64.sh 
     # add source from qinghua, so that the network is fixed
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
@@ -96,7 +98,7 @@ Warning: this work is currently in submission for NIPS 2017.
     source activate song_1
 
     **tensorflow**
-    pip install tensorflow... 11 and 10 is fine
+    pip install tensorflow... (1.1 version)
     	IF ERROR: .Exception: Versioning for this project requires either an sdist tarball, or access to an upstream git repository. Are you sure 	that git is installed?>>>
         $ sudo pip install --upgrade distribute
 
@@ -112,13 +114,11 @@ Warning: this work is currently in submission for NIPS 2017.
     **gym**
     apt-get install -y python-numpy python-dev cmake zlib1g-dev libjpeg-dev xvfb libav-tools xorg-dev python-opengl libboost-all-dev libsdl2-dev swig
     apt-get -y install git
-    git clone https://github.com/openai/gym
     cd gym
-    pip install -e . # minimal install
     pip install -e .[all] # all install
     cd ..
     
-    conda install -c https://conda.binstar.org/menpo opencv
+    ------>conda install -c https://conda.binstar.org/menpo opencv # not recommand
 
     **opencv**
 
@@ -158,7 +158,8 @@ Warning: this work is currently in submission for NIPS 2017.
 
         source /etc/profile
         which go
-        mv /usr/bin/go #upper showing
+        # should show /usr/bin/go
+        mv /usr/bin/go /home #upper showing
         source /etc/profile
         go version # to check if go version is 1.7
 
@@ -166,14 +167,12 @@ Warning: this work is currently in submission for NIPS 2017.
         pip install websocket
         pip install docker
 
-
-        git clone https://github.com/openai/universe.git
         cd universe
         pip install -e .
 
         sudo apt-get install python-matplotlib
 
-
+    ====================================================================
     **atom**
       su root
 
