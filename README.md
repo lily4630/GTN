@@ -155,11 +155,11 @@ Warning: this work is currently in submission for NIPS 2017.
         tar -C /usr/local -xzf go1.7.4.linux-amd64.tar.gz
         gedit /etc/profile #write following
         export PATH=$PATH:/usr/local/go/bin
-
         source /etc/profile
-        which go
-        # should show /usr/bin/go
-        mv /usr/bin/go /home #upper showing
+        go version # see if go version is i.7
+        #if go version is not 1.7
+        which go # should show XXXX
+        mv -r XXXX /home/
         source /etc/profile
         go version # to check if go version is 1.7
 
